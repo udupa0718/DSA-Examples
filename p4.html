@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+         <h1>  W.A.P to find Area of Shapes   </h1>
+        
+         <h3> Square (S * S) </h3>
+         <h3> Circle (PI * R * R) </h3>
+         <h3> Rectangle (L * B) </h3>
+         <h3> Triangle  (1/2 B * H) </h3>
+
+         <div>
+            <label for="op">Choose Shapes</label>
+            <select name="op" id="op" onchange="selHandler()">
+                <option value="null">Choose Shape</option>
+                <option value="square">Square</option>
+                <option value="circle">Circle</option>
+                <option value="rect">Rectangle</option>
+                <option value="tri">Triangle</option>
+                <option value="para">Parallelogram</option>
+                <option value="cube">Cube</option>
+                <option value="cyc">Cyclinder</option>
+                <option value="trap">Trapezoid</option>
+            </select>
+         </div>
+
+         <hr>
+         <h3 id="output"></h3>
+
+        <script src="./js/p4.js"></script>
+    </body>
+</html>

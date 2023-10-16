@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1> Simple Interest </h1>
+    <div>
+        <form autocomplete="off" onsubmit="submitHandler(event)">
+            <div>
+                <label for="pr">Principle (P) </label>
+                <input type="number" name="pr" id="pr" required>
+            </div>
+            <br>
+            <div>
+                <label for="rate">Rate of Interest (R) </label>
+                <input type="text" name="rate" id="rate" required>
+            </div>
+            <br>
+            <div>
+                <label for="yr">Year (T) </label>
+                <input type="number" name="yr" id="yr" required>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Calculate">
+            </div>
+        </form>
+    </div>
+    
+    <hr>
+    <div id="result"></div>
+    
+    <script src="./js/p3.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> W.A.P Sum of 1 - n Natural numbers </h1>
+    <h1> W.A.P Sum of 1 - n Even numbers </h1>
+    <h1> W.A.P Sum of 1 - n Odd numbers</h1>
+
+
+    <p> num = 30 , 1 + 2 + 3 + ..... + n </p>
+    <p> num = 30 , 2 + 4 + 6 + ..... + n (Even) </p>
+    <p> num = 30 , 1 + 3 + 5 + ..... + n (Odd) </p>
+
+    <div>
+        <form autocomplete="off" onsubmit="submitHandler(event)">
+            <div>
+               <label for="num">Enter N</label>
+               <input type="text" name="num" id="num" required>
+            </div>
+
+            <div>
+                <label for="op">Choose Option</label>
+                <select name="op" id="op">
+                    <option value="null">Choose Option</option>
+                    <option value="all">All</option>
+                    <option value="even">Even</option>
+                    <option value="odd">Odd</option>
+                </select>
+            </div>
+
+            <div>
+               <input type="submit" value="Calculate">
+            </div>
+        </form>
+    </div>
+
+    <hr>
+    <div id="res"></div>
+     <script src="./js/p24.js"></script>    
+</body>
+</html>

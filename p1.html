@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div>
+    <div class="header">
+        <h3> Largest of Two Numbers </h3>
+    </div>
+        <form method="post" onsubmit="submitHandler(event)">
+          <div>
+            <label for="inp1">Input-1</label>
+            <input type="number" name="inp1" id="inp1" required>
+          </div>
+
+        <div>
+            <label for="inp2">Input-2</label>
+            <input type="number" name="inp2" id="inp2" required>
+        </div>
+
+        <div>
+            <label for="logic">Choose Logic</label>
+            <select name="logic" id="logic">
+                <option value="null">Choose logic</option>
+                <option value="condition">Condition</option>
+                <option value="math">Math</option>
+                <option value="operator">Operator</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="submit" value="Find">
+        </div>
+    </form>
+</div>
+      
+   <div id="result"></div>
+   <script src="./js/p1.js"></script>
+        
+</body>
+</html>
